@@ -28,9 +28,15 @@ public class MyController {
 	public String m3() {
 		return "Welcome to spring boot";
 	}
+
 	
 	@GetMapping("/hello6")
 	public String m6() {
 		return "Welcome to m6";
+	}
+
+	@GetMapping("/hello5")
+	public String m5() {
+		return "Hello Friends";
 	}
 }
