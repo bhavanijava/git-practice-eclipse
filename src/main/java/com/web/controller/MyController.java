@@ -17,4 +17,9 @@ public class MyController {
 	public String m2() {
 		return "Welcome to spring boot";
 	}
+	
+	@GetMapping("/hello4")
+	public String m4() {
+		return "Welcome to spring boot";
+	}
 }
