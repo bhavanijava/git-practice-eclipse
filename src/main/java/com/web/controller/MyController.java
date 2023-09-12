@@ -12,4 +12,9 @@ public class MyController {
 	public String m1() {
 		return "Welcome to spring boot";
 	}
+	
+	@GetMapping("/hello2")
+	public String m2() {
+		return "Welcome to spring boot";
+	}
 }
